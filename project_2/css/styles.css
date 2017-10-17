@@ -63,6 +63,7 @@ h3 {
 .skills {
   padding-top: 20px;
   margin-top: 20px;
+  clear:both;
 }
 .footer-ul {
     display: none;
@@ -122,7 +123,6 @@ h3 {
       padding-top: 50px;
       margin-top: auto;
       text-align: center;
-
     }
 .portfolio {
   float:center !important;
