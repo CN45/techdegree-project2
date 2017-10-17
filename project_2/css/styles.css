@@ -55,7 +55,12 @@ img {
      }
      .contact-div {
        font-family: 'EB Garamond', serif;
+       text-align: center;
      }
+.contact-div p {
+  text-align: center;
+  display: inline-block;
+}
      h1 {
        font-size: 30px;
      }
@@ -122,13 +127,10 @@ h3 {
 
       width: 50%;
       height: 400px;
-      float: center;
       padding: 50px;
     }
-    
-.portfolio {
-  float:center !important;
-}
+
+
 .top {
   float:right;
 
