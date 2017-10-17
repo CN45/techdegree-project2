@@ -102,7 +102,7 @@ h3 {
   display: inline-block;
   text-align: center;
   align-content: center;
-  padding-left: 0
+  padding-left: 11px
 }
 .profile {
     float: right;
@@ -142,6 +142,7 @@ h3 {
      .portfolio {
        float:left !important;
      }
+
      .main-nav {
          float: right;
          text-align: center;
@@ -152,6 +153,7 @@ h3 {
        .main-nav li {
            display: inline-block;
            text-align: center;
+           padding-left: 11px;
          }
          .profile {
             float: right;
