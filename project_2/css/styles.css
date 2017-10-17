@@ -24,6 +24,8 @@ body {
          padding:20px;
          list-style:none;
          width:525px;
+         display: inline;
+         text-align: center;
     		 }
 
          nav ul li a:hover, nav ul li a:focus {
@@ -31,6 +33,11 @@ body {
            background-color: lightblue;
            font-weight: bold;
          }
+h1,
+h2,
+p {
+  text-align: center;
+}
 img {
   width: 100%;
 }
@@ -52,37 +59,49 @@ h3 {
 .skills {
   padding-top: 20px;
   margin-top: 20px;
-  background-color: lightblue;
-  border-radius: 20px;
 }
-/* media queries*/
-@media screen and (max-width : 320px)
+.footer-ul {
+    display: none;
+}
+.top {
+  text-align: center;
+  float:right;
+}
+.footer-nav {
+    padding: 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
- {
-   header {
-     width: auto;
-     height: 300px;
-   }
- }
-img {
-  width: 50%;
+.footer-nav h3 {
+    display: inline;
+    font-size: 1em;
+    padding-right: 6.2em;
 }
+
+
+
+/* media queries*/
+
 @media screen and (min-width: 768px) {
   header {
     height: 325px;
   }
-}
+
 
   .main-nav {
-  width: auto;
+    display: inline-flex;
+    text-align: center;
+    width: auto;
   align-content: center;
-  text-align: center;
 }
 
 .main-nav li {
   display: inline-block;
   text-align: center;
   align-content: center;
+  padding-left: 0
 }
 .profile {
     float: right;
@@ -92,16 +111,22 @@ img {
 
       width: 50%;
       height: 400px;
-      float: left;
+      float: center;
       padding: 50px;
     }
     .skills {
       clear:both;
       padding-top: 50px;
       margin-top: auto;
+      text-align: center;
+
     }
 .portfolio {
-  float:left !important;
+  float:center !important;
+}
+.top {
+  float:right;
+
 }
 
 
@@ -109,7 +134,7 @@ img {
        header {
        height: 350px;
      }
-     }
+
      img {
        width: 100%;
      }
@@ -151,9 +176,22 @@ img {
 .end-name {
  text-align: left;
 }
-.footer-lrg {
-     text-align: right;
+.footer-ul li{
+  list-style-type: none;
 }
-.footer-sm {
- visibility: hidden;
+.footer-ul {
+        display: block;
+        float:right;
+        list-style-type: none;
+    }
+
+    .footer-ul li {
+        display: inline;
+        padding-left: 1.2em;
+    }
+
+.top {
+  display:none;
+}
+
 }
