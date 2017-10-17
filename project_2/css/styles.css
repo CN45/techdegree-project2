@@ -185,9 +185,7 @@ h3 {
 .end-name {
  text-align: left;
 }
-.footer-ul li{
-  list-style-type: none;
-}
+
 .footer-ul {
         display: block;
         float:right;
@@ -195,8 +193,9 @@ h3 {
     }
 
     .footer-ul li {
-        display: inline;
-        padding-left: 1.2em;
+      display: inline;
+      padding-left: 1.2em;
+      list-style-type: none;
     }
 
 .top {
