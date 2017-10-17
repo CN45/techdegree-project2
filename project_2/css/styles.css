@@ -6,6 +6,11 @@
   height: 300px;
   margin-bottom: 85px;
 }
+
+.contact-div{
+  text-align: center;
+  display:inline-block;
+  }
 nav {
   text-align: center;
 }
@@ -61,6 +66,8 @@ h3 {
   color: blue;
 }
 .skills {
+  text-align: center;
+
   padding-top: 20px;
   margin-top: 20px;
   clear:both;
@@ -118,12 +125,7 @@ h3 {
       float: center;
       padding: 50px;
     }
-    .skills {
-      clear: both;
-      padding-top: 50px;
-      margin-top: auto;
-      text-align: center;
-    }
+    
 .portfolio {
   float:center !important;
 }
